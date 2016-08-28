@@ -1,0 +1,43 @@
+
+importFrom(jsonlite, fromJSON, toJSON)
+
+## exports to ensure that the methods for class "Interface" use no non-exported object
+export(asRObject, asServerObject) # these would be exported anyway
+export(rmInterface, evaluatorNumber) # these might not.
+
+export(ProxyClassObject, vector_R)
+
+export(objectAsJSON)
+export(valueFromServer)
+export(nameQuote, fillNames)
+export(objectDictionary)
+export(getInterface)
+export(serverAddToPath, serverImport, serverTask)
+export(evaluatorAction) # called from the startupActions() evaluator method
+export(evaluatorActions)
+
+export(setProxyClass)
+
+export(Interface, ServerClassDef)
+exportClass(Interface, ServerClassDef)
+exportClass(ProxyClassObject, vector_R, ProxyFunction)
+
+export(typeToJSON)
+export(noScalar)
+
+export(packageSetup)
+
+export(proxyName)
+
+export(fixHelpTopic)
+export(from_Server)
+exportClass(from_Server, serverFields, ProxyObject)
+exportClass(Unconvertible)
+
+## niceties for CHECK
+  ## importFrom("methods", "allNames", "as", "callGeneric",
+  ##            "callNextMethod", "evalOnLoad", "extends", "getClass", "getClassDef",
+  ##            "is", "isVirtualClass", "new", "packageSlot",
+##            "packageSlot<-", "setRefClass", "slot", "slot<-")
+import(methods)
+  importFrom("utils", "packageName")
