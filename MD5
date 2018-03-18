@@ -1,6 +1,6 @@
-a038b3ed37aecf34d07458586ea988db *DESCRIPTION
+98aa64e3f86224d2e21a85c36a2d7af1 *DESCRIPTION
 a2c9a79cdf479d142f314a8094a57bd5 *NAMESPACE
-44df8bcc8175225a864ce233528136b1 *R/Interface.R
+72736f1d92cd48f5f047d12d474b5fb3 *R/Interface.R
 98706d182c3d9f99f83bcef8e9fc186b *R/ProxyClass.R
 2c3842d0ac69e57c25a1521f9764ece4 *R/XR.R
 661ab051773bd3ccf2359bf8298f0a4a *R/packageSetup.R
@@ -26,7 +26,7 @@ b499506ed3cf8425765cecd1104d80c7 *man/asRObject.Rd
 4319286ec8485442fe6d159c0ba6d90d *man/asServerObject.Rd
 a32c0d0586ab26e458b30e18a5105315 *man/dumpProxyFunction.Rd
 80b91cd85d3232e4a5624069d53cb3d4 *man/evaluatorAction.Rd
-1d17ccf800a6c2d279297668bfae5929 *man/evaluatorActions.Rd
+9af461e956163d39eaaa8d90edd083bd *man/evaluatorActions.Rd
 978dc99ff4bc8bd6f55628c53b0928d3 *man/fillNames.Rd
 b9408ec439bf1cb92035b286d89c7a56 *man/fixHelpTopic.Rd
 895dd84633e04c7955a5f64bdac00cfc *man/from_Server-class.Rd
